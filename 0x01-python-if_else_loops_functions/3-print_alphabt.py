@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 
 for i in range(97, 123):
-    if chr(letter) is not 'q' and chr(letter) is no
+    if i == 101 or i == 113:
+        continue
+    print("{:c}".format(i), end='')
