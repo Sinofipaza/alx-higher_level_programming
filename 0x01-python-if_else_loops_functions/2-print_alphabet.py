@@ -1,4 +1,8 @@
 #!/usr/bin/python3
 
-for i in range(97, 123):
-    print("{}".format(chr(letter)), end="")
+def lowercaseAlphabets():
+    for c in range(97, 123):
+        print(chr(c), end = " ");
+    print("");
+
+lowercaseAlphabets();
