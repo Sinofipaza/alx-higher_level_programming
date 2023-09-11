@@ -2,10 +2,8 @@
 
 class MyInt(int):
     """A MyInt class"""
-    def __eq__(self, other):
-        """Overides and inverts == operator"""
-        return int(self) != int(other)
+    def __eq__(self, value):
+        return self.real != value
 
-    def __ne__(self, other):
-        """Overides and inverts != operator"""
-        return int(self) == int(other)
+    def __ne__(self, value):
+        return self.real == value
